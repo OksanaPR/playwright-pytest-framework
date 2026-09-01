@@ -7,3 +7,6 @@ htmlcov/
 .coverage
 .idea/
 .vscode/
+reports/
+allure-results/
+allure-report/

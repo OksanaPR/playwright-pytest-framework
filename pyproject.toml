@@ -1,3 +1,11 @@
 [tool.pytest.ini_options]
 pythonpath = ["."]
 testpaths = ["tests"]
+
+addopts = """
+-v
+--junitxml=reports/junit.xml
+--html=reports/report.html
+--self-contained-html
+--alluredir=allure-results
+"""
